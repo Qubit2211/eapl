@@ -23,17 +23,24 @@ button{
   margin-top: 3px;
   padding: 5px;
 }
-.xeshop{
+#xeshop{
   border-radius: 25px;
   background-color: #001168;
   color: rgb(255, 255, 255);
   border-style: none;
 }
-#xeshop{
-  color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+.btn-outline-secondary {
+  border-color: #ff6600;
+  background-color:#ff6600 ;
+  color: #ffffff; /* Example text color */
+  /* border-style: none; */
+  border-radius: 25px;
+  }
+  #xeshop:hover {
+  border-color: #ff6600;
+  background-color: #ff6600; /* Example hover background color */
+  color: #fff; /* White text on hover */
+  }
 /* ----------------------------------------------------- */
 
 @font-face {

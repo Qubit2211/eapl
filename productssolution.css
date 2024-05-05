@@ -28,9 +28,7 @@
     display: block; /* Ensures the div takes the full width of the anchor tag */
     transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover effects */
 }
-.nav-link{
-    padding: 0px;
-}
+
 a.nav-link:hover .navigation {
     background-color: #001168; /* Dark blue background color on hover */
     color: white; /* White text color on hover */
@@ -54,7 +52,7 @@ a.nav-link.active .navigation {
 .product img {
     background-color: #f9f9f9;
     width: 100%; /* Full width for images */
-    height: 250px; /* Maintain aspect ratio */
+    height: 570px; /* Maintain aspect ratio */
     padding: 30px;
 }
 
