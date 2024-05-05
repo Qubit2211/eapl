@@ -1,0 +1,102 @@
+.hero-section h1  {
+    font-family: myfont2;
+    color: #fff;
+    font-size: 45px;
+  }
+  @media (max-width: 768px) {
+    .hero-section h1  {
+      font-family: myfont2;
+      color: #fff;
+      font-size: 35px;
+    }
+  }
+
+  /* ------------------------------------------------ */
+  .about-product h3 {
+    padding-bottom: 9px;
+    font-weight: 900;
+    padding-left: 0px;
+  }
+/* -------------------------------------------------------- */
+.navigation {
+    border-bottom: 2px solid #e8e8e8;
+    background-color: #f9f9f9; /* Light gray background color */
+    color: black; /* Black text color */
+    padding: 20px; /* Uniform padding for better clickability */
+    text-align: center; /* Centers text within the navigation element */
+    height: auto; /* Automatically adjusts height based on content */
+    display: block; /* Ensures the div takes the full width of the anchor tag */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover effects */
+}
+.nav-link{
+    padding: 0px;
+}
+a.nav-link:hover .navigation {
+    background-color: #001168; /* Dark blue background color on hover */
+    color: white; /* White text color on hover */
+}
+
+a.nav-link.active .navigation {
+    color: white;
+    background-color: #001168; /* Dark blue background color on hover */
+    border-left: 2px solid #ff5722; /* Orange left border for the active element */
+}
+.product {
+     /* Light background for the product section */
+    margin-left: 30px; /* Added margin to create space between navigation and content */
+}
+.product h3 {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: 900;
+    color: #001168; /* Dark grey color for headings */
+}
+.product img {
+    background-color: #f9f9f9;
+    width: 100%; /* Full width for images */
+    height: 250px; /* Maintain aspect ratio */
+    padding: 30px;
+}
+
+.feature-list li, .application-list li {
+    margin-bottom: 10px; /* More spacing between list items */
+}
+.features h5{
+    font-weight: 600;
+    color: #001168;
+    padding-left: 15px;
+}
+.applications h5{
+    font-weight: 600;
+    color: #001168;
+    padding-left: 15px;
+}
+.applications p{
+    padding-left: 15px;
+}
+        /* General button styling */
+        .button {
+            background-color: #ff5722; /* Orange background color */
+            color: white; /* White text color */
+            border: none; /* No border */
+            padding: 10px 20px; /* Padding around the text */
+            font-size: 16px; /* Text size */
+            cursor: pointer; /* Cursor indicates clickable */
+            border-radius: 20px; /* Rounded corners */
+            margin: 10px; /* Margin between buttons */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        /* Hover effect */
+        .button:hover {
+            background-color: #e64a19; /* Darker orange on hover */
+        }
+
+        /* Flex container for centering the buttons */
+        .button-container-product {
+            display: flex; /* Flexbox for alignment */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+
+       
